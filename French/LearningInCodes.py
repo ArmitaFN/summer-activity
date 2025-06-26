@@ -9,4 +9,6 @@ if chosen == "dictionary":
     print(f'It means {mots[word]}')
   else:
     print("Oops, there is no word like that! Let's add it now!😊")
-  
+    
+  if chosen == "cards":
+    
