@@ -1,11 +1,15 @@
 import random
+
 mots = {'se débrouiller' : 'to manage, to cope, to get by (especially in a tricky situation)',
         'apercevoir': 'to notice, to catch sight of',
         'améliorer': 'to improve' }
 # I add every new word i learn
+
 word = ' '
 chosen = ' '
+
 chosen = input("What do you want to work with? ").lower()
+
 if chosen == "dictionary":
   word = input("What word are you looking for? ").lower()
   if word in mots:
@@ -31,6 +35,7 @@ elif chosen == "cards":
       
     else:
       raise valueError("Never heard of that before! Make sure to learn it soon so you can add it in Dictionary.😉")
+            
 else:
   print("You can either choose Dictionary or Cards, want more? Add another section!☺️")
     
