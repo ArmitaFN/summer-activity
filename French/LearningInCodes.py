@@ -1,4 +1,5 @@
 import random
+import tkinter as tk
 
 mots = {'se débrouiller' : 'to manage, to cope, to get by (especially in a tricky situation)',
         'apercevoir': 'to notice, to catch sight of',
