@@ -1,5 +1,4 @@
 import random
-import tkinter as tk
 
 mots = {'se débrouiller' : 'to manage, to cope, to get by (especially in a tricky situation)',
         'apercevoir': 'to notice, to catch sight of',
@@ -41,4 +40,4 @@ else:
   print("You can either choose Dictionary or Cards, want more? Add another section!☺️")
     
       
-# next, i try to work with tkinter library
+# It's the first version! Next, I'll go make it more livelier in another file
