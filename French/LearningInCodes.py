@@ -2,8 +2,9 @@ import random
 
 mots = {'se débrouiller' : 'to manage, to cope, to get by (especially in a tricky situation)',
         'apercevoir': 'to notice, to catch sight of',
-        'améliorer': 'to improve' }
-# I add every new word i learn
+        'améliorer': 'to improve',
+        'souligner': 'to underline, to emphasize'}
+# I add the new words I learn
 
 word = ' '
 chosen = ' '
